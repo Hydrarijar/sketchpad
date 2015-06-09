@@ -1,0 +1,33 @@
+.container {
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.box {
+	background-color: #d0d0d0;
+	float: left;
+	border: 1px solid black;
+	margin: -1px;
+}
+
+.highlighted {
+	background-color: #ff0000;
+}
+
+.faded {
+	transition: background-color 1s ease-in-out;
+	background-color: #d0d0d0;
+}
+
+.button {
+	margin: 20px auto;
+	vertical-align: center;
+}
+
+#buttons {
+	height: 100px;
+	text-align: center;
+	padding: 20px;
+
+}
